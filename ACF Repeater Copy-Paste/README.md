@@ -36,6 +36,6 @@ Limitations
 3) Handling of fields that are not as expected is more or less controlled but not that graceful - ie if your 2nd column is a number field and your pasted data has a 2nd column with letters then that 2nd column will be skipped
 4) Yes I know, it's slow.   It's fine for a small quantity of rows but if you have 100s or 1000s of rows it is a little on the slow side as you watch it add the content.
 
-* These limitations could be easily resolved; please feel free to submit any updates or if you need this code integrating with your own ACF setup in a more specific manor just get in touch with me via www.adam-makes-websites.com
+\* These limitations could be easily resolved; please feel free to submit any updates or if you need this code integrating with your own ACF setup in a more specific manor just get in touch with me via www.adam-makes-websites.com
 
 REMEMBER: check the JS console for output as the code produces lots of feedback as to what it's attempting to do.
