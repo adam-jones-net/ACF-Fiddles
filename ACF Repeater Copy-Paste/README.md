@@ -19,7 +19,7 @@ Installation
 
 How it works
 ------------
-Once active the code will catch every paste you make within the WP admin.   It will however only actually attempt to do anything if:#
+Once active the code will catch every paste you make within the WP admin.   It will however only actually attempt to do anything if:
 
 1) the cursor is within an ACF repeater field 
 2) the field has a custom css class assigned to it called 'tableCopyPaste' (via the ACF field group configuration for that particular repeater field).
@@ -31,7 +31,7 @@ Assuming the above basic requirements are met the code will run over the data in
 
 Limitations
 ------------
-1) Only a few basic ACF field types are supported; Standard integers, text and date picker fields (assumed to be in dd/mm/yyyy date format) *
+1) Only some ACF field types are supported; Standard integers, text and date picker fields (assumed to be in dd/mm/yyyy date format) *
 2) You need to setup an ACF repeater that uses the 'table' layout, other layouts are not supported * 
 3) Handling of fields that are not as expected is more or less controlled but not that graceful - ie if your 2nd column is a number field and your pasted data has a 2nd column with letters then that 2nd column will be skipped
 4) Yes I know, it's slow.   It's fine for a small quantity of rows but if you have 100s or 1000s of rows it is a little on the slow side as you watch it add the content.
