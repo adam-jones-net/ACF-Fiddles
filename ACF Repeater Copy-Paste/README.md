@@ -34,7 +34,7 @@ Limitations
 1) Only some ACF field types are supported; Standard integers, text and date picker fields (assumed to be in dd/mm/yyyy date format) *
 2) You need to setup an ACF repeater that uses the 'table' layout, other layouts are not supported * 
 3) Handling of fields that are not as expected is more or less controlled but not that graceful - ie if your 2nd column is a number field and your pasted data has a 2nd column with letters then that 2nd column will be skipped
-4) Yes I know, it's slow.   It's fine for a small quantity of rows but if you have 100s or 1000s of rows it is a little on the slow side as you watch it add the content.
+4) Yes I know it's a little slow.   It's fine for many use cases but if you have many 1000s of rows there will be some lag.
 
 \* These limitations could be easily resolved; please feel free to submit any updates or if you need this code integrating with your own ACF setup in a more specific manor just get in touch with me via www.adam-makes-websites.com
 
