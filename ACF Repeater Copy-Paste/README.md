@@ -15,7 +15,7 @@ Installation
 1) If you don't have a custom JS file running in the WP admin get that setup by adding the content of my functions.php file to your own theme's functions.php file.
 2) Now copy the included .js file into your theme folder or existing admin JS file.  If using code from the sample functions.php file to make a new JS get hooked into the WP header load make sure that this is working and accessible by viewing the source for any admin page within WP.
 2) Now go and edit any existing ACF field groups that use repeaters that you want to run the copy/paste with.  Add a custom class of 'tableCopyPaste' to the repeater field and then update the field group.   
-3) That's it!  Now go and edit/create a post.   Go to Excel or another program, select and COPY your fields, then return to the WP Admin and do a PASTE inside the repeater field!
+3) That's it!  Now go and edit/create a post.   Go to Excel or another program, select and COPY your required cells, then return to the WP Admin and with the cursor in the first field of a new row do a PASTE inside the repeater field!
 
 
 How it works
