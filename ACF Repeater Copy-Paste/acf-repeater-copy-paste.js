@@ -187,9 +187,6 @@ function char_count(str, letter) {
   return letter_Count;
 }
 function stripNonAlphaNumeric(input){
-	// Created: 18/3/19
-	// Desc: Useful function if you want to check your string has visible tex/numbers and not just line returns etc
-
-	input=input.replace(/[^0-9a-z]/gi, '');
-	return input;
+    input=input.replace(/[^0-9a-z]/gi, '');
+    return input;
 }
