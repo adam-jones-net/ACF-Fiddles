@@ -23,8 +23,8 @@ How it works
 Once active the code will catch every paste you make within the WP admin.   It will however only actually attempt to do anything if:
 
 1) the cursor is within an ACF repeater field 
-2) the field has a custom css class assigned to it called 'tableCopyPaste' (via the ACF field group configuration for that particular repeater field).
-3) the number of columns in the data copied from your source match the number of visible input fields within the row of the repeater field
+2) the ACF repeater field has a custom css class assigned to it called 'tableCopyPaste' (via the ACF field group configuration for that particular repeater field).
+3) the number of columns in the data copied from your source must not be greater than the number of visible input fields within the row of the repeater field
 
 Assuming the above basic requirements are met the code will run over the data in the clipboard and attempt to insert it into the form fields of the repeater, adding as many new rows as required.
 
@@ -34,7 +34,7 @@ Limitations
 ------------
 1) Only some ACF field types are supported; Standard integers, text and date picker fields (assumed to be in dd/mm/yyyy date format) *
 2) You need to setup an ACF repeater that uses the 'table' layout, other layouts are not supported * 
-3) Handling of fields that are not as expected is more or less controlled but not that graceful - ie if your 2nd column is a number field and your pasted data has a 2nd column with letters then that 2nd column will be skipped
+3) Handling of fields that are not as expected is more or less controlled but not that graceful in all scenarios - ie if your 2nd column is a number field and your pasted data has a 2nd column with letters then that 2nd column will be skipped.  However if you have dates in a date format not matching that currently supported or fields that are not sinple text/number inputs unpredictable things may happen. 
 4) Yes I know it's a little slow.   It's fine for many use cases but if you have many 1000s of rows there will be some lag.
 
 \* These limitations could be easily resolved; please feel free to submit any updates or if you need this code integrating with your own ACF setup in a more specific manor just get in touch with me via www.adam-makes-websites.com
