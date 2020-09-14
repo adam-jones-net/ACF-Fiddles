@@ -3,9 +3,12 @@ ACF Repeater Copy/Paste concept
 By Adam Jones
 www.adam-makes-websites.com
 
-Last Updated: 30/8/20
+Created: 30/8/20
+Updated: 13/9/20
 
-See readme at https://github.com/arkid/ACF-Fiddles/tree/master/ACF%20Repeater%20Copy-Paste for more info
+Basic usage: First goto https://github.com/arkid/ACF-Fiddles/tree/master/ACF%20Repeater%20Copy-Paste for more info
+Troubleshooting: The code has a lot of console.log() debug, ensure you check this as a first step.   
+Usage in your projects: Feel free to use as you see fit, no guarantee provided.   Please credit me @ www.adam-makes-websites.com if used in your projects
 */
 
 jQuery(document).ready(function() {
