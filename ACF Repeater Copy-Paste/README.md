@@ -32,11 +32,11 @@ Assuming the above basic requirements are met the code will run over the data in
 
 Limitations
 ------------
-1) Only some ACF field types are supported; Standard integers, text and date picker fields (assumed to be in dd/mm/yyyy date format) *
+1) Only some ACF field types are supported and so far guaranteed to work.  These are standard integers, text and date picker fields (assumed to be in dd/mm/yyyy date format) *
 2) You need to setup an ACF repeater that uses the 'table' layout, other layouts are not supported * 
 3) Handling of fields that are not as expected is more or less controlled but not that graceful in all scenarios - ie if your 2nd column is a number field and your pasted data has a 2nd column with letters then that 2nd column will be skipped.  However if you have dates in a date format not matching that currently supported or fields that are not of the basic text/number inputs that the code currently supports then more unpredictable things may happen. 
 4) Yes I know it's a little slow.   It's fine for many use cases but if you have many 1000s of rows there will be some lag.
 
-\* These limitations could be easily resolved; please feel free to submit any updates or if you need this code integrating with your own ACF setup in a more specific manor just get in touch with me via www.adam-makes-websites.com
+\* These limitations could very likely be easily resolved; please feel free to submit any updates or if you need this code integrating with your own ACF setup in a more specific manor just get in touch with me via www.adam-makes-websites.com
 
 REMEMBER: check the JS console for output as the code produces lots of feedback as to what it's attempting to do.
