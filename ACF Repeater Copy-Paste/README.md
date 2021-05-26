@@ -40,3 +40,9 @@ Limitations
 \* These limitations could very likely be easily resolved; please feel free to submit any updates or if you need this code integrating with your own ACF setup in a more specific manor just get in touch with me via www.adam-makes-websites.com
 
 REMEMBER: check the JS console for output as the code produces lots of feedback as to what it's attempting to do.
+
+
+
+Known Issues
+------------
+There seems to be a problem with this code running just in the Firefox browser.  It seems to handle pasted formatted data differently, resulting in errors occuring when you run the paste command because the JS engine thinks that there are less cells of data than available in the form you are trying to paste into.   
